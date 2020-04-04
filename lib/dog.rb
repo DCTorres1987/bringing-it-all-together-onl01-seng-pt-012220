@@ -54,8 +54,8 @@ class Dog
   
   def self.new_from_db(row)
     id = nil
-    name = row[1]
-    breed = row[2]
+    name = row[:name]
+    breed = row[:breed]
     self.new(id, name, breed)
   end 
   
