@@ -4,8 +4,8 @@ class Dog
   
   attr_accessor :name, :breed, :id 
   
-  def initialize(keyword)
-    binding.pry
+  def initialize(has)
+    @name = hash[:name]
   end
   
 end
